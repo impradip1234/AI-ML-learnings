@@ -15,3 +15,18 @@ if(is_palindrom):
     print("True")
 else:
     print("False")
+
+#second method ......
+str1=''.join(reversed(str))
+
+if(str1==str):
+    print("palindrom")
+else:
+    print("not a palindrom")
+
+#Third method :...
+variable = input("entre the word")
+if variable == variable[::-1]:
+    print("palindrome")
+else:
+    print("not a palindrome")
