@@ -18,7 +18,7 @@ print(Students.get_school())
 
 #03: static method..
 class Students:
-    # @staticmethodS
+    # @staticmethod
     def add(a,b):
         return a+b
 print(Students.add(3,4))
