@@ -1,0 +1,3 @@
+erase all the previous data
+and write this text in the file
+72Sample.txt file.
