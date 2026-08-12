@@ -10,7 +10,11 @@
 # print(data)
 
 # for performing right operation on the file 
-f=open("72Sample.txt",'w')
-f.write("erase all the previous data\nand write this text in the file\n72Sample.txt file.")
+# f=open("72Sample.txt",'w')
+# f.write("erase all the previous data\nand write this text in the file\n72Sample.txt file.")
 
-f.close()
+# f.close()
+
+# automatically closses the file once all the operations are performed.......
+with open("72Sample.txt",'r') as f:
+    print(f.read())
