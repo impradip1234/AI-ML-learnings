@@ -1,0 +1,18 @@
+CREATE DATABASE collage;
+CREATE DATABASE XYZCOMPANY;
+DROP DATABASE XYZCOMPANY;
+USE collage;
+
+
+CREATE TABLE students(
+rollno INT,
+name VARCHAR(30),
+age INT);
+
+INSERT INTO students
+VALUES 
+(101,"Pradip",22),
+(102,"Aditya",21);
+
+SELECT * FROM students
+
