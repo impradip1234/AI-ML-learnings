@@ -1,0 +1,11 @@
+
+books=list()
+books.append("Pradip Yadav")
+books.append("Aditya Yadav")
+books.append("satish Yadav")
+books.append(123)
+books.append(34.3)
+books.append("amarjeet Yadav")
+print("before clear():",books)
+books.clear()
+print("after clear():",books)
