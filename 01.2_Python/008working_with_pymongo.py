@@ -5,7 +5,7 @@
 from pymongo import MongoClient
 from bson import ObjectId
 
-client=MongoClient("mongodb+srv://pradipyadav2438317_db_user:uGJ1TUvoTjyq2iLy@cluster0.y2lzovm.mongodb.net/", tlsAllowInvalidCertificates=True)
+client=MongoClient("mongodb+srv://<user_name>:<password>@cluster0.y2lzovm.mongodb.net/", tlsAllowInvalidCertificates=True)
 db=client["ytmanager"]
 video_collection=db["videos"]
 
